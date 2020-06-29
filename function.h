@@ -1,13 +1,5 @@
 //functions
-int calc()//Adding
-{
-};
-int calc()//Substract
-{
-};
-int calc()//Multiply
-{
-};
-int calc()//Divide
-{
-};
+int calc(int, int);//Adding
+int calc(short, short);//Substract
+int calc(double, double);//Multiply
+int calc(float , float);//Divide

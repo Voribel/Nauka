@@ -8,7 +8,8 @@ int main() {
     std::cout << "2: Substract \n";
     std::cout << "3: Multiply \t";
     std::cout << "4: Divide \n";
-    std::cout >> iNum;
+    std::cout <<"Type in your choice: ";
+    std::cin >> iNum;
     std::cout << "Type in first number: \n";
     std::cin >> iFirst;
     std::cout << "Type in second number: \n";
@@ -16,13 +17,18 @@ int main() {
     switch(iNum)
     {
         case 1:
-            calc(int iFirst,int iSecond)
+            calc(iFirst,iSecond);
+            break;
         case 2:
-            calc(short iFirst,short iSecond)
+            calc(iFirst,iSecond);
+            break;
         case 3:
-            calc(double iFirst,double iSecond)
+            calc(iFirst,iSecond);
+            break;
         case 4:
-            calc(float iFirst,float iSecond)
+            calc(iFirst,iSecond);
+            break;
+
     };
-    return 0;
+
 }
