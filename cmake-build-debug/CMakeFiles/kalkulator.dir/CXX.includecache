@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Wiktor/Desktop/Uczenie/kalkulator/function.h
+
+C:/Users/Wiktor/Desktop/Uczenie/kalkulator/main.cpp
+iostream
+-
+function.h
+C:/Users/Wiktor/Desktop/Uczenie/kalkulator/function.h
+
