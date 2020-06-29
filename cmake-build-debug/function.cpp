@@ -13,7 +13,7 @@ int calc(double x, double y)//Multiply
 {
     return x*y;
 };
-int calc(float x, float y)//Divide
+float calc(float x, float y)//Divide
 {
     if(y<0)
         std::cout << "Divider can't be 0 \n";

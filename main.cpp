@@ -2,7 +2,8 @@
 #include "function.h"
 
 int main() {
-    int iNum,iFirst,iSecond;
+    int iNum;
+    double iFirst,iSecond;
     std::cout << "What do you want to do? \n";
     std::cout << "1: Add \t";
     std::cout << "2: Substract \n";
